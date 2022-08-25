@@ -14,7 +14,7 @@ max_num = 100
 for i in range(1,max_num): #4th bug, max_num , not max_number #6 bug, 1, not i
     # % or modulo division gives you the remainder 
     
-    if i%num1 == 0 and i%num2 == 0: #7th bug, wrong order in the code
+    if i%num1 == 0 and i%num2 == 0: #6th bug, wrong order in the code, 7th bug change statement
         print(i,three_mul+five_mul) #3rd bug, misses a tab
     elif i%num1 == 0: #2nd bug, misses an =
         print(i,three_mul)
@@ -38,8 +38,8 @@ while number < n + 1:
 
     #number = number + 1
 print("Sum =", sum)
-
 """
+
 
 
 #3
@@ -49,8 +49,8 @@ sum = 0
 for num in range(n+1): #bug, misses n+1
     sum += num
 print("Sum =", sum)
-
 """
+
 
 
 4#
@@ -158,7 +158,8 @@ else:
 
 print("Your entered value is now ", x)
    
-    
+   
+"""
 """
 #10
 x = int(input("First number: ")) #1st bud, int() missing
@@ -171,3 +172,4 @@ elif y % x == 0: #4th bug ==, not !=
 else:
     print("Numbers are non-divisible!") #6th misspelling
 
+"""
